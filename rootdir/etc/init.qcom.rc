@@ -333,7 +333,7 @@ service qmuxd /system/bin/qmuxd
 service msm_irqbalance /system/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
     class core
     user root
-    group root
+    group root  readproc 
     writepid /dev/cpuset/system-background/tasks
 
 service netmgrd /system/bin/netmgrd
