@@ -12,8 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libqsap_sdk \
     libQWiFiSoftApCfg \
-    libwcnss_qmi \
-    wcnss_service
+    libwcnss_qmi
 
 PRODUCT_PACKAGES += \
     hostapd \
